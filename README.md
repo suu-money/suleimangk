@@ -29,7 +29,7 @@ This is an improvement of my first project:
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
 ## Tools Used 🛠️
-* [**GitHub**](https://github.com/) - To host my static website (HTML, CSS, JS).
+* [**GitHub**](https://github.com/) - To host my static website (PHP, HTML, CSS, JS).
 * [**Animista**](https://animista.net/) - For interactive animations.
 
 Please contact me at [suleleimankareithi@yahoo.com](mailto:suleleimankareithi@yahoo.com) if you have any feedback for the website. :star: Star it if you like it!
