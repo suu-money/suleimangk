@@ -57,6 +57,7 @@ Hope you're up to some good shenanigans—let's get coding! 🎉
   <meta name="twitter:image:assets" content="https://suu-money.github.io/suleimangk/assets/png/Preview-card-min.png" />
   <!-- check -->
   <meta name="twitter:site" content="@Portfolio" />
+  
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Suleiman G. K. | Portfolio" />
   <meta name="twitter:description"
@@ -71,6 +72,8 @@ Hope you're up to some good shenanigans—let's get coding! 🎉
   <!-- google fonts-->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+  <link rel="canonical" href="https://suu-money.github.io/suleimangk/" />
+
 
 
 <body class="body">
