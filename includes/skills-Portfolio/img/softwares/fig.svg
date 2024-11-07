@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.59 232.65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eaeaea;
+        stroke: #6d6d6d;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #f24e1e;
+      }
+
+      .cls-3 {
+        fill: #a259ff;
+      }
+
+      .cls-4 {
+        fill: #ff7262;
+      }
+
+      .cls-5 {
+        fill: #1abcfe;
+      }
+
+      .cls-6 {
+        fill: #0acf83;
+      }
+    </style>
+  </defs>
+  <g id="Camada_2-2" data-name="Camada 2">
+    <g id="Layer_1" data-name="Layer 1">
+      <path id="path2240" class="cls-1" d="M42.57,.5H196.02c23.26,0,42.07,18.81,42.07,42.07V190.08c0,23.26-18.81,42.07-42.07,42.07H42.57c-23.26,0-42.07-18.81-42.07-42.07V42.57C.5,19.31,19.31,.5,42.57,.5Z"/>
+      <g>
+        <path id="path0_fill" data-name="path0 fill" class="cls-6" d="M95.85,187.66c12.94,0,23.45-10.5,23.45-23.45v-23.45h-23.45c-12.94,0-23.45,10.5-23.45,23.45s10.5,23.45,23.45,23.45Z"/>
+        <path id="path1_fill" data-name="path1 fill" class="cls-3" d="M72.4,117.32c0-12.94,10.5-23.45,23.45-23.45h23.45v46.89h-23.45c-12.94,0-23.45-10.5-23.45-23.45h0Z"/>
+        <path id="path1_fill-2" data-name="path1 fill-2" class="cls-2" d="M72.4,70.43c0-12.94,10.5-23.45,23.45-23.45h23.45v46.89h-23.45c-12.94,0-23.45-10.5-23.45-23.45h0Z"/>
+        <path id="path2_fill" data-name="path2 fill" class="cls-4" d="M119.29,46.98h23.45c12.94,0,23.45,10.5,23.45,23.45s-10.5,23.45-23.45,23.45h-23.45s0-46.9,0-46.9Z"/>
+        <path id="path3_fill" data-name="path3 fill" class="cls-5" d="M166.19,117.32c0,12.94-10.5,23.45-23.45,23.45s-23.45-10.5-23.45-23.45,10.5-23.45,23.45-23.45,23.45,10.5,23.45,23.45Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

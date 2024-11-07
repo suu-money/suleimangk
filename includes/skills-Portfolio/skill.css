@@ -1,0 +1,249 @@
+html {
+  font-family: "Poppins", sans-serif;
+  --defaultBlue: #0038fe;
+  --white: rgb(232, 225, 244);
+  --transparent: transparent;
+  --defaultShadow: 10px 10px 30px -10px rgb(0 0 0 / 15%), 5px 5px 10px -5px rgb(0 0 0 / 9%);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL"0, "wght"400, "GRAD"0, "opsz"48;
+}
+
+/* Mobile Devices */
+@media (max-width: 992px) {
+
+
+  #s3 .sectionContainer {
+    margin-top: -120px;
+  }
+
+
+}
+
+/* End Mobile */
+
+/* Desktop  */
+@media (min-width: 992px) {
+  html {
+    --sectionPadding: 40px;
+    --rowPadding: 30px;
+    --columnPadding: 20px;
+    --headerHeight: 90px;
+    --rowGap: 10px;
+  }
+
+  .sectionContainer {
+    padding: var(--sectionPadding);
+  }
+
+
+
+  .sectionContainer .row {
+    flex-direction: row;
+  }
+
+  section.containerTitle {
+    text-align: left;
+  }
+
+
+  #s3 .sectionContainer {
+    margin-top: -120px;
+    flex-direction: row;
+  }
+}
+
+/* End Desktop */
+
+/* Main Section Styling */
+#s3 {
+  box-sizing: border-box;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: var(--rowGap);
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: var(--columnPadding);
+  width: 100%;
+  gap: 10px;
+}
+
+/* //////////// */
+
+.material-symbols-outlined {
+  font-size: 2.4rem;
+  animation: mouseScroll infinite 2.6s;
+}
+
+
+
+.section #s3 {
+  background-color: var(--transparent);
+}
+
+#s3 .sectionContainer .column {
+  background-color: var(--transparent);
+  border-radius: 50px;
+  box-shadow: var(--defaultShadow);
+  text-align: justify;
+}
+
+#s3 .sectionContainer {
+  gap: 20px;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+#s3 .column {
+  padding: 30px;
+  justify-content: flex-start;
+}
+
+#s3 .material-symbols-outlined {
+  font-size: 52px;
+}
+
+.softwares ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+}
+
+.circle {
+  margin-top: 10em;
+  background-color: var(--defaultBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 1000px;
+  width: fit-content;
+  
+}
+
+.softwares li {
+  position: relative;
+  /* Required for absolute positioning of the tooltip */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* Makes the box circular */
+  background-color: var(--transparent);
+  /* Circle background set to transparent */
+  box-shadow: var(--defaultShadow);
+  /* Optional: add shadow */
+  transition: transform 0.3s ease-in-out;
+  /* Smooth transition on hover */
+}
+
+
+.softwares li:hover {
+  transform: scale(1.1);
+  /* Slightly enlarges the icon on hover */
+}
+
+.softwares img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--tech-stack-box-border-color);
+}
+
+#s3 .sectionContainer h2,
+h3,
+p {
+  color: var(--color-white);
+}
+
+
+
+/* Animation Presets */
+
+@keyframes mouseScroll {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  33% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+}
+
+li.tech-stack-box {
+  width: 35px;
+  height: 35px;
+}
+.tooltip{
+  color: var(--color-white);
+  position: absolute;
+  top: -20px;
+  opacity: 0;
+  background: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
+  border: 1px solid var(--tech-stack-box-border-color);
+  /* padding: 5px 10px; */
+  border-radius: 5px;
+  /* justify-content: center; */
+  transition-duration: .2s;
+  pointer-events: none;
+  /* letter-spacing: .5px; */
+  /* font-size: 1.6rem; */
+  backdrop-filter: blur(5px);
+  /* font-weight: 500 */
+}
+
+.project-box,
+.tech-stack-box {
+    background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color))
+}
+
+
+.tech-stack-box,
+.tooltip {
+    align-items: center;
+    display: flex
+}
+
+.tech-stack-box {
+    /* width: 30px;
+    height: 30px; */
+    justify-content: center;
+    /* border-radius: 30px; */
+    border: 1px solid var(--tech-stack-box-border-color);
+    position: relative
+}
+
+.tech-stack-box img {
+    width: 80%
+}
+
+.tech-stack-box:hover .tooltip {
+    opacity: 1;
+    transition-duration: .3s
+}
+

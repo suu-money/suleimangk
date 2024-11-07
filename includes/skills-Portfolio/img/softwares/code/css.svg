@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 235">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #264de4;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #2965f1;
+      }
+
+      .cls-4 {
+        fill: #ebebeb;
+      }
+
+      .cls-5 {
+        fill: #f1f1f1;
+        stroke: #6d6d6d;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Camada_2-2" data-name="Camada 2">
+    <g id="Surfaces">
+      <g id="Drawing_Surface" data-name="Drawing Surface">
+        <g id="Outline_no_shadow" data-name="Outline no shadow">
+          <path class="cls-5" d="M43,.5H198c23.5,0,42.5,19,42.5,42.5V192c0,23.5-19,42.5-42.5,42.5H43c-23.5,0-42.5-19-42.5-42.5V43C.5,19.5,19.5,.5,43,.5Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="layer1">
+      <g id="g3013">
+        <polygon id="polygon2989" class="cls-1" points="181.25 65.45 170.18 189.46 120.43 203.25 70.8 189.48 59.75 65.45 181.25 65.45"/>
+        <polygon id="polygon2991" class="cls-3" points="160.71 181.56 170.17 75.59 120.5 75.59 120.5 192.71 160.71 181.56"/>
+        <polygon id="polygon2993" class="cls-4" points="85.1 121.59 86.46 136.8 120.5 136.8 120.5 121.59 85.1 121.59"/>
+        <polygon id="polygon2995" class="cls-4" points="120.5 90.8 120.45 90.8 82.36 90.8 83.74 106.02 120.5 106.02 120.5 90.8"/>
+        <polygon id="polygon2997" class="cls-4" points="120.5 176.92 120.5 161.1 120.43 161.12 103.49 156.54 102.41 144.41 94.18 144.41 87.14 144.41 89.27 168.29 120.43 176.94 120.5 176.92"/>
+        <path id="path2999" d="M88.34,31.75h18.42v7.7h-10.72v7.7h10.72v7.7h-18.42V31.75Z"/>
+        <path id="path3001" d="M110.45,31.75h18.42v6.7h-10.72v1.34h10.72v15.41h-18.42v-7.03h10.72v-1.34h-10.72v-15.07Z"/>
+        <path id="path3003" d="M132.56,31.75h18.42v6.7h-10.72v1.34h10.72v15.41h-18.42v-7.03h10.72v-1.34h-10.72v-15.07Z"/>
+        <polygon id="polygon3005" class="cls-2" points="139.18 136.8 137.41 156.53 120.45 161.11 120.45 176.94 151.63 168.29 151.86 165.72 155.44 125.68 155.81 121.59 158.55 90.8 120.45 90.8 120.45 106.02 141.88 106.02 140.5 121.59 120.45 121.59 120.45 136.8 139.18 136.8"/>
+      </g>
+    </g>
+  </g>
+</svg>
