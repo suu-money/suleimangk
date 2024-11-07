@@ -4,8 +4,7 @@
 <a href="https://github.com/suu-money/suu-money.github.io/blob/master/LICENSE">
     <img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square" />
 </a>
-
-<img width="100%" alt="Portfolio Screenshot" src="https://github.com/suu-money/suu-money.github.io/assets/webp/Suleiman-G-K-Portfolio.webp">
+![Super Portfolio Screenshot](assets/webp/Suleiman-G-K-Portfolio.webp)
 
 This is an improvement of my first project:
 
