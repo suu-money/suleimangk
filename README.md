@@ -8,7 +8,9 @@
 <img width="100%" alt="Portfolio Screenshot" src="https://github.com/suu-money/suu-money.github.io/assets/webp/Suleiman-G-K-Portfolio.webp">
 
 This is an improvement of my first project:
-<img width="100%" alt="First Portfolio Screenshot" src="https://github.com/suu-money/suu-money.github.io/assets/webp/suleimangachie.com.png">
+
+![First Portfolio Screenshot](assets/webp/suleimangachie.com.png)
+
 
 :star: Star me on GitHub — it helps!
 
