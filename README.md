@@ -1,10 +1,11 @@
 # <a href="https://suu-money.github.io/suleimangk" target="_blank">My Portfolio</a>
 <p align="justify">My portfolio showcases my projects, web presence, story, work experience, and contact information. Explore to see how I combine clean design with user-friendly interactions.</p>
+![Super Portfolio Screenshot](assets/webp/Suleiman-G-K-Portfolio.webp)
 
 <a href="https://github.com/suu-money/suu-money.github.io/blob/master/LICENSE">
     <img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square" />
 </a>
-![Super Portfolio Screenshot](assets/webp/Suleiman-G-K-Portfolio.webp)
+
 
 This is an improvement of my first project:
 
