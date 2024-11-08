@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'  # Specify the Java version for the build
-        distribution: 'adoptopenjdk'  # You can use 'openjdk' or 'adoptopenjdk'
+        distribution: 'adoptium'  # You can use 'openjdk' or 'adoptopenjdk'
 
     - name: Build with Maven
       run: mvn clean install  # Runs the Maven build
