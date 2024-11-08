@@ -9,6 +9,10 @@
 <br>
 
 
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/suu-money/suleimangk)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://suu-money.github.io/)
+[![Author](https://img.shields.io/badge/Author-Suleiman%20G.%20K.-purple.svg)]()
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-11%20Jan%202024-yellow.svg)](https://github.com/suu-money/suleimangk)
 <a href="https://github.com/suu-money/suu-money.github.io/blob/master/LICENSE">
     <img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square" />
 </a>
