@@ -1,0 +1,33 @@
+name: Maven Build
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger on PR to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Specify the operating system to run on
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # Checks out the repository to the runner
+    
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'  # Specify the Java version for the build
+        distribution: 'adoptopenjdk'  # You can use 'openjdk' or 'adoptopenjdk'
+
+    - name: Build with Maven
+      run: mvn clean install  # Runs the Maven build
+
+    - name: Upload Build Artifacts (optional)
+      if: success()
+      uses: actions/upload-artifact@v2
+      with:
+        name: target
+        path: target/*.jar  # Path to build artifacts (adjust if you’re using other packaging)
