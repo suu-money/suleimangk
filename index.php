@@ -576,6 +576,26 @@ Hope you're up to some good shenanigans—let's get coding! 🎉
   </script>
   <script src="https://www.chatbase.co/embed.min.js" chatbotId="txish2aHnazQJ_1m6vG9O" domain="www.chatbase.co" defer>
   </script>
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Suleiman G. K.",
+  "alternateName": [
+    "Suleiman Gachie",
+    "Suleiman Kareithi",
+    "suu",
+    "suu-money"
+  ],
+  "url": "https://suu-money.github.io/suleimangk/",
+  "description": "Suleiman G. K.'s personal portfolio showcasing projects, designs, and software development work.",
+  "author": {
+    "@type": "Person",
+    "name": "Suleiman Gachie Kareithi"
+  }
+}
+</script>
+
 </body>
 
 </html>
