@@ -27,7 +27,7 @@ jobs:
 
     - name: Upload Build Artifacts (optional)
       if: success()
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: target
         path: target/*.jar  # Path to build artifacts (adjust if you’re using other packaging)
